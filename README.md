@@ -1,14 +1,27 @@
 <h1 align="center">Hi, I'm Fyodor Malkov 👋</h1>
 
 <p align="center">
-  <strong>PostgreSQL DBA · High Availability & Disaster Recovery · ClickHouse · Ansible Automation · Critical Infrastructure · Open Source</strong>
+  <strong>PostgreSQL & ClickHouse DBA · High Availability & Disaster Recovery · Ansible Automation · Open Source</strong>
 </p>
 
 <p align="center">
   <strong>English</strong> · <a href="README.ru.md">Русский</a>
 </p>
 
-I am a database administrator, software developer, and open-source enthusiast. My professional work focuses on **PostgreSQL and ClickHouse infrastructure**, reliability, replication, backup and recovery, monitoring, and automation. Outside of my DBA work, I build practical tools and explore software architecture, security, and AI-assisted engineering.
+<p align="center">
+  <a href="https://www.linkedin.com/in/fmalkov/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://x.com/kroxut"><img alt="X" src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white"></a>
+  <a href="https://habr.com/ru/users/krox/"><img alt="Habr" src="https://img.shields.io/badge/Habr-65A3BE"></a>
+  <a href="https://t.me/FyodorMalkov"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white"></a>
+  <a href="https://www.reddit.com/user/kroxut/"><img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white"></a>
+  <a href="https://www.facebook.com/fyodor.malkov/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-0866FF?logo=facebook&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="mailto:fmalkov91@gmail.com">fmalkov91@gmail.com</a> · <a href="mailto:fmalkov91@proton.me">fmalkov91@proton.me</a>
+</p>
+
+I am a database administrator, software developer, and open-source enthusiast. My professional work focuses on **PostgreSQL and ClickHouse infrastructure**: reliability, replication, backup and recovery, monitoring, and automation. Outside of DBA work, I build practical tools for Windows and other platforms and explore software architecture, security, and AI-assisted engineering.
 
 I care about clear interfaces, predictable behavior, user control, and the ability to recover safely when something goes wrong.
 
@@ -43,43 +56,49 @@ I care about clear interfaces, predictable behavior, user control, and the abili
 
 | Project | What it does |
 | --- | --- |
-| **[WinStoreRegion](https://github.com/kroxiksut/win-store-region)** | Temporarily changes the Windows region for Microsoft Store installation workflows, then restores the original setting. Built with Rust. |
-| **[codexSync](https://github.com/kroxiksut/codexSync)** | Local-first GUI and CLI for moving Codex chats, projects, configuration, and local state between personal machines, with guarded handoff, conflict handling, backups, and recovery. |
-| **[NetRuleRouter](https://github.com/kroxiksut/net-rule-router)** | A developing rule-based desktop traffic router for choosing between network connections and VPN tunnels by domain, address, or application. |
-| **[CommentRake](https://github.com/kroxiksut/comment-rake)** | A human-in-the-loop tool for finding, reviewing, and cleaning source-code comments. In pre-alpha development. |
+| **[NetRuleRouter](https://github.com/kroxiksut/net-rule-router)** | Work-in-progress desktop app for rule-based traffic routing across VPN tunnels and multiple internet sources (different providers, Ethernet, Wi-Fi, mobile hotspots), with rules by domain, address, or application. Written in Rust. |
+| **[codexSync](https://github.com/kroxiksut/codexSync)** | Local-first GUI and CLI for moving Codex chats, projects, settings, and local state between your own machines, with conflict handling, backups, and recovery. |
+| **[WinStoreRegion](https://github.com/kroxiksut/win-store-region)** | Temporarily switches the Windows region for Microsoft Store installs, then restores the original setting. Written in Rust. |
+| **[Pakomichi](https://github.com/kroxiksut/pakomichi)** | A bridge from Git releases to APT and DNF: install and update `.deb`/`.rpm` packages published in Releases with the usual `apt`/`dnf` commands, without separate package repositories. In design. |
+| **[CommentRake](https://github.com/kroxiksut/comment-rake)** | Human-in-the-loop tool for finding, reviewing, and cleaning up source-code comments; the developer always makes the final call. Pre-alpha. |
 
 ### Engineering methodology & security research
 
 | Project | What it explores |
 | --- | --- |
 | **[CHLOYA](https://github.com/kroxiksut/project-chloya)** | An evolving methodology for AI-assisted software engineering: bounded context, explicit responsibilities, transferable project knowledge, and verifiable results. |
-| **[PageCheck](https://github.com/kroxiksut/pagecheck)** | A pre-alpha browser extension researching signs of concealed or deceptive page content, suspicious links, and visual manipulation. Not a security guarantee. |
+| **[PageCheck](https://github.com/kroxiksut/pagecheck)** | Pre-alpha browser extension that looks for signs of hidden or deceptive page content, suspicious links, and visual manipulation. Not a security guarantee. |
 | **[Web Security Scenario Lab](https://github.com/kroxiksut/web-security-scenario-lab)** | A controlled, client-side research lab for reproducing misleading web-page patterns and testing detection tools. |
 
-Older experiments, libraries, and other projects remain available in my **[repositories](https://github.com/kroxiksut?tab=repositories)**.
+Older experiments, libraries, and other projects are available in my **[repositories](https://github.com/kroxiksut?tab=repositories)**.
+
+## 🤝 Open-source contributions
+
+- **[Mamonsu — PR #235](https://github.com/postgrespro/mamonsu/pull/235):** proposed optional TLS encryption (PSK or certificate) for the agent's connection to Zabbix, keeping the unencrypted mode compatible. Under review upstream.
 
 ## 💼 Professional experience
 
-**NITs Telecom — Database Administrator**  
+**NIC Telecom (National Research Center for Telecommunications) — Database Administrator**  
 *August 2026 – Present*
 
-Modernizing and maintaining PostgreSQL and ClickHouse infrastructure in the telecommunications sector, including replication, backup and disaster recovery, monitoring, automation, and high-availability design.
+Modernizing and maintaining PostgreSQL and ClickHouse infrastructure in the telecommunications sector: replication, backup and disaster recovery, monitoring, automation with Ansible, and high-availability design.
 
-**Rostelecom — Database Administration / Infrastructure Engineering**
+**Rostelecom — Database Administration & Infrastructure Engineering**  
+*December 2023 – February 2026*
 
-Previous experience operating and supporting high-load database systems, with a focus on reliability, monitoring, and automation.
+Operated and supported high-load database systems, with a focus on reliability, monitoring, and automation.
 
 ## 🔬 Research & publications
 
-My earlier research focused on **3D scanning and the virtual reconstruction of archaeological artifacts**. In particular, I studied the recovery of ceramic vessel profiles from 3D scans and later worked on recreating missing fragments using virtual reconstruction and 3D printing. I also co-authored a systematic review of medical 3D printing with neurosurgery specialists.
+My earlier research focused on **3D scanning and virtual reconstruction of archaeological artifacts**: recovering ceramic vessel profiles from 3D scans and recreating missing fragments with virtual reconstruction and 3D printing. I also co-authored, with neurosurgery specialists, a systematic review of 3D printing in neurosurgery.
 
 ### Archaeology & 3D reconstruction
 
 **2014 · Virtual reconstruction of ceramic vessels from 3D scans**  
 *Original title:* «Виртуальное восстановление сосудов на основе 3Д сканирования».  
-*Ancient Cultures of Mongolia and Baikal Siberia*, 5th International Scientific Conference, Kyzyl, Part II, pp. 157–161.  
+*Ancient Cultures of Mongolia and Baikal Siberia*, proceedings of the 5th International Scientific Conference, Kyzyl, Part II, pp. 157–161.  
 **Focus:** reconstructing vessel profiles from 3D scanning data.  
-[Proceedings and bibliographic entry](https://www.kronk.spb.ru/library/2014-kyzyl-dkmbs.htm)
+[Proceedings and bibliographic entry](http://www.kronk.spb.ru/library/2014-kyzyl-dkmbs.htm)
 
 **2018 · Recreating small missing fragments of ceramic vessels using virtual reconstruction and 3D printing**  
 *Original title:* «Воссоздание малых недостающих фрагментов керамических сосудов с помощью методов виртуальной реконструкции и 3D-печати».  
@@ -90,26 +109,9 @@ My earlier research focused on **3D scanning and the virtual reconstruction of a
 ### Medical 3D printing
 
 **2019 · 3D-Printing Technology in Neurosurgery: A Systematic Review**  
-*Pediatric Neurosurgery and Neurology*, No. 2–3 (60–61), pp. 75–98. Co-authored with a multidisciplinary team.  
+*Original title:* «Технология 3D-печати в нейрохирургии: систематический обзор».  
+*Pediatric Neurosurgery and Neurology*, No. 2–3 (60–61), pp. 75–98. Co-authored with neurosurgery specialists.  
 **Focus:** clinical and educational uses of 3D printing, including anatomical models, surgical planning, and training.  
-[Journal issue and publication details](https://www.almazovcentre.ru/?page_id=29070)
+[Journal issue archive](https://www.almazovcentre.ru/?page_id=29070)
 
-My additional earlier publications cover scientific information systems, computer vision, and interdisciplinary data analysis.
-
-## 🤝 Open-source contributions
-
-- **[Mamonsu — PR #235](https://github.com/postgrespro/mamonsu/pull/235):** proposed optional TLS encryption (PSK and certificate modes) for communication with Zabbix, while preserving unencrypted-mode compatibility. The contribution is a pull request to the upstream project, not a claim of an upstream release.
-
-## 📬 Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/fmalkov/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"></a>
-  <a href="https://x.com/kroxut"><img alt="X" src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white"></a>
-  <a href="https://habr.com/ru/users/krox/"><img alt="Habr" src="https://img.shields.io/badge/Habr-65A3BE"></a>
-  <a href="https://t.me/FyodorMalkov"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white"></a>
-  <a href="https://www.reddit.com/user/kroxut/"><img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white"></a>
-  <a href="https://www.facebook.com/fyodor.malkov/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-0866FF?logo=facebook&logoColor=white"></a>
-  <a href="https://vk.com/f_malkov"><img alt="VK" src="https://img.shields.io/badge/VK-0077FF?logo=vk&logoColor=white"></a>
-</p>
-
-**Email:** [fmalkov91@gmail.com](mailto:fmalkov91@gmail.com) · [fmalkov91@proton.me](mailto:fmalkov91@proton.me)
+Other earlier publications cover scientific information systems, computer vision, biological data analysis, and other interdisciplinary topics.
