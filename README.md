@@ -74,7 +74,7 @@ Older experiments, libraries, and other projects are available in my **[reposito
 
 ## 🤝 Open-source contributions
 
-- **[Mamonsu — PR #235](https://github.com/postgrespro/mamonsu/pull/235):** proposed optional TLS encryption (PSK or certificate) for the agent's connection to Zabbix, keeping the unencrypted mode compatible. Under review upstream.
+I send fixes and features to open-source projects I use. Pull requests, dates and status: **[CONTRIBUTIONS.md](CONTRIBUTIONS.md)**.
 
 ## 💼 Professional experience
 
