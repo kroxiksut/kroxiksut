@@ -60,7 +60,9 @@ I care about clear interfaces, predictable behavior, user control, and the abili
 | **[codexSync](https://github.com/kroxiksut/codexSync)** | Local-first GUI and CLI for moving Codex chats, projects, settings, and local state between your own machines, with conflict handling, backups, and recovery. |
 | **[WinStoreRegion](https://github.com/kroxiksut/win-store-region)** | Temporarily switches the Windows region for Microsoft Store installs, then restores the original setting. Written in Rust. |
 | **[Pakomichi](https://github.com/kroxiksut/pakomichi)** | A bridge from Git releases to APT and DNF: install and update `.deb`/`.rpm` packages published in Releases with the usual `apt`/`dnf` commands, without separate package repositories. In design. |
+| **[ZDashstitch](https://github.com/kroxiksut/zdashstitch)** | Local GUI tool for building, cloning, and safely maintaining global Zabbix dashboards: assemble pages from several templates, prepare projects offline, and replace a host across many widgets at once. Targets Zabbix 7.4. Written in Rust. Early development; the dashboard editor is not ready yet. |
 | **[CommentRake](https://github.com/kroxiksut/comment-rake)** | Human-in-the-loop tool for finding, reviewing, and cleaning up source-code comments; the developer always makes the final call. Pre-alpha. |
+| **[Reconstellate](https://github.com/kroxiksut/project-reconstellate)** | Local-first desktop platform for digitising, analysing, matching, assembling, and reconstructing objects from 2D profiles, 3D meshes, and fragments. The first domain pack focuses on archaeological pottery. Active development. |
 
 ### Engineering methodology & security research
 
