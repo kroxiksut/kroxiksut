@@ -21,6 +21,10 @@
   <a href="mailto:fmalkov91@gmail.com">fmalkov91@gmail.com</a> · <a href="mailto:fmalkov91@proton.me">fmalkov91@proton.me</a>
 </p>
 
+<p align="center">
+  <strong>Resume:</strong> <a href="https://github.com/kroxiksut/kroxiksut/blob/main/resume/Fyodor_Malkov_PostgreSQL_DBA_CV_EN.pdf">PDF</a> · <a href="https://github.com/kroxiksut/kroxiksut/raw/main/resume/Fyodor_Malkov_PostgreSQL_DBA_CV_EN.docx">DOCX</a>
+</p>
+
 I am a database administrator, software developer, and open-source enthusiast. My professional work focuses on **PostgreSQL and ClickHouse infrastructure**: reliability, replication, backup and recovery, monitoring, and automation. Outside of DBA work, I build practical tools for Windows and other platforms and explore software architecture, security, and AI-assisted engineering.
 
 I care about clear interfaces, predictable behavior, user control, and the ability to recover safely when something goes wrong.
@@ -80,15 +84,36 @@ I send fixes and features to open-source projects I use. Pull requests, dates an
 
 ## 💼 Professional experience
 
+13+ years in IT, starting in 2011 with networks and servers in a university lab, then research software development, and database administration in production. Full resume: **[PDF](https://github.com/kroxiksut/kroxiksut/blob/main/resume/Fyodor_Malkov_PostgreSQL_DBA_CV_EN.pdf)** · **[DOCX](https://github.com/kroxiksut/kroxiksut/raw/main/resume/Fyodor_Malkov_PostgreSQL_DBA_CV_EN.docx)**.
+
 **NIC Telecom (National Research Center for Telecommunications) — Database Administrator**  
 *August 2026 – Present*
 
 Modernizing and maintaining PostgreSQL and ClickHouse infrastructure in the telecommunications sector: replication, backup and disaster recovery, monitoring, automation with Ansible, and high-availability design.
 
-**Rostelecom — Database Administration & Infrastructure Engineering**  
+**Rostelecom — Database Administrator**  
 *December 2023 – February 2026*
 
-Operated and supported high-load database systems, with a focus on reliability, monitoring, and automation.
+Operated and supported high-load database systems for a large telecommunications company (600+ database instances, PostgreSQL with Patroni-based high availability, ClickHouse, Cassandra), with a focus on reliability, monitoring, security, and automation.
+
+**Horizon LLC — Systems Engineer, Laboratory Information Systems**  
+*June 2022 – October 2023*
+
+Administered Windows and Linux servers and supported PostgreSQL, Oracle, and MongoDB: troubleshooting, log analysis, backups, and monitoring. Automated routine tasks with Python and integrated laboratory analyzers and electronic-signature workflows.
+
+**Scientific Centre for Family Health and Human Reproduction Problems — IT Infrastructure & Systems Administration Specialist (part-time)**  
+*September 2020 – January 2026*
+
+Administered Linux virtual machines and Proxmox VE, including the migration from VMware; maintained backups and PostgreSQL-based services (Moodle, GitLab, internal Django applications, BigBlueButton) for research, healthcare, and education.
+
+### Earlier experience
+
+- **2020–2021 · Irkutsk National Research Technical University — Lecturer.** Undergraduate laboratory classes and practical technical training.
+- **2018 · Institute of System Dynamics and Control Theory, SB RAS — Programmer.** Django applications, Redmine and GitLab administration, database design.
+- **2017–2021 · Irkutsk National Research Technical University — Junior Researcher.** Research and software projects, grants and publications; OpenStack and storage systems.
+- **2015–2017 · Irkutsk Scientific Centre, SB RAS — Junior Researcher.** Grant-funded research and software projects.
+- **2015 · UMNIK grant project — Software Developer.** C++/Qt, database design, image analysis with OpenCV.
+- **2011–2013 · Irkutsk National Research Technical University — Research Laboratory Assistant / Technician Programmer.** Local networks, workstations, servers, and computer labs.
 
 ## 🔬 Research & publications
 

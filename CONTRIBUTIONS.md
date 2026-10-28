@@ -2,7 +2,7 @@
 
 Pull requests I have sent to projects I use, grouped by project. Statuses are updated from time to time.
 
-Last updated: 2026-10-23.
+Last updated: 2026-10-26.
 
 ## [Mamonsu](https://github.com/postgrespro/mamonsu)
 
@@ -36,3 +36,28 @@ Rust netlink packet types for the Linux netfilter subsystems, nf_tables included
 | Opened | Pull request | What it does | Status |
 | --- | --- | --- | --- |
 | 2026-10-23 | [#24](https://github.com/rust-netlink/netlink-packet-netfilter/pull/24) | Adds the `ct`, `limit`, `log` and `rt` nf_tables expressions, tested against netlink messages captured from `nft`. | Under review |
+
+## [windows-service](https://github.com/mullvad/windows-service-rs)
+
+A crate for implementing and managing Windows services.
+
+| Opened | Pull request | What it does | Status |
+| --- | --- | --- | --- |
+| 2026-10-25 | [#148](https://github.com/mullvad/windows-service-rs/pull/148) | Adds `Service::set_start_type`, which changes only a service's start type without rebuilding its whole configuration. | Under review |
+| 2026-10-25 | [#149](https://github.com/mullvad/windows-service-rs/pull/149) | Adds `Service::query_security_descriptor` and `set_security_descriptor` to read and write a service's security descriptor as an SDDL string. | Under review |
+
+## [rpm](https://github.com/rpm-rs/rpm-rs)
+
+A pure Rust library for reading, building and signing RPM packages.
+
+| Opened | Pull request | What it does | Status |
+| --- | --- | --- | --- |
+| 2026-10-26 | [#378](https://github.com/rpm-rs/rpm-rs/pull/378) | Fixes a panic on inconsistent trigger tag arrays, stops signing without a signature backend from silently dropping signatures, applies librpm's signature header limits, reads headers in bounded chunks and adds a regression test with malformed headers. | Under review |
+
+## [rpm-version](https://github.com/rpm-rs/rpm-version)
+
+Rust library for RPM versions (NEVRA, EVR), sorted the same way as RPM.
+
+| Opened | Pull request | What it does | Status |
+| --- | --- | --- | --- |
+| 2026-10-26 | [#1](https://github.com/rpm-rs/rpm-version/pull/1) | Makes `Evr` and `Nevra` equality and hashing agree with their ordering, so that ordered and hashed collections agree on which versions are duplicates, and fixes sortkeys of numeric segments longer than 255 digits. | Under review |
